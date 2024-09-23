@@ -21,7 +21,6 @@ class RenderizadoElementos extends Component {
 
     }
     render(){
-        console.log(data);
         return (
           <div>
             <h2>6. RENDERIZADO DE ELEMENTOS</h2>
@@ -50,6 +49,6 @@ class RenderizadoElementos extends Component {
 }
 
 ElementosLista.propTypes = {
-    el: PropTypes.array.isRequired
+    el: PropTypes.object.isRequired
 }
 export default RenderizadoElementos

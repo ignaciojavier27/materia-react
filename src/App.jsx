@@ -1,6 +1,7 @@
 import './App.css'
 import Componentes from './components/Componentes'
 import Estado from './components/Estado'
+import EventosClase from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
 import Propiedades from './components/Propiedades'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
@@ -30,7 +31,12 @@ function App() {
       <hr />
       <RenderizadoCondicional />
       <hr />
-      <RenderizadoElementos /> 
+      <RenderizadoElementos />
+      <hr />
+      <EventosClase />
+
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
     </>
   )
