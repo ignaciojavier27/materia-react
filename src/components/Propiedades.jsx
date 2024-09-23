@@ -2,7 +2,7 @@ import { PropTypes } from "prop-types"
 const Propiedades = ({cadena, numero, boolean, array, objeto, reactElement}) => {
     return (
         <div>
-            <h2>3. Propiedades - PROPS</h2>
+            <h2>3. PROPIEDADES - PROPS</h2>
             <p>Son los valores que recibe un componente hijo de su componente padre. </p>
             <p>Son valores inmutables</p>
             <p>Las propiedades pueden ser: string, number, boolean, array, object, react elements, react components, funciones</p>

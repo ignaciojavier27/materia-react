@@ -1,0 +1,29 @@
+{
+    "frameworks": [
+        {
+            "id": 1,
+            "name": "React Native",
+            "url": "https://reactnative.dev/"
+        },
+        {
+            "id": 2,
+            "name": "Flutter",
+            "url": "https://flutter.dev/"
+        },
+        {
+            "id": 3,
+            "name":"Vue",
+            "url": "https://vuejs.org/"
+        },
+        {
+            "id": 4,
+            "name": "Angular",
+            "url": "https://angular.io/"
+        },
+        {
+            "id": 5,
+            "name": "Svelte",
+            "url": "https://svelte.dev/"
+        }
+    ]
+}

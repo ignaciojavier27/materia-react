@@ -1,5 +1,5 @@
 import { Component } from "react"
-import { Proptypes } from "prop-types"
+import { PropTypes } from "prop-types"
 
 function EstadoAHijo (props) {
     return(
@@ -14,12 +14,16 @@ class EstadoClase extends Component {
         this.state = {
             contador: 0,
         }
+        /*
 
         setInterval(() => {
             this.setState({
                 contador: this.state.contador + 1
             })
         },1000)
+
+        */
+
     }
 
     render(){
@@ -39,7 +43,7 @@ const Estado = () => {
 
     return (
     <div>
-        <h2>4. Estado</h2>
+        <h2>4. ESTADO</h2>
         <p>El estado son los valores internos que maneja la lógica y los datos de un componente. Tiene 3 características importantes:</p>
         <ol>
             <li>Es inmutable</li>
@@ -53,7 +57,7 @@ const Estado = () => {
 
 
 EstadoAHijo.propTypes = {
-    contador: Proptypes.number
+    contador: PropTypes.number
 }
 
 export default Estado
