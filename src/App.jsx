@@ -1,5 +1,6 @@
 import './App.css'
 import Componentes from './components/Componentes'
+import ComunicacionEntreComponentes from './components/ComunicacionEntreComponentes'
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
@@ -36,6 +37,8 @@ function App() {
       <EventosClaseES6 />
       <EventosClaseES7 />
       <MasSobreEventos />
+      <hr />
+      <ComunicacionEntreComponentes />
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
