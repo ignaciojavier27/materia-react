@@ -1,4 +1,6 @@
 import { Component } from "react"
+import PropTypes from "prop-types"
+
 export class EventosClaseES6 extends Component {
 
     constructor(props){
@@ -67,4 +69,32 @@ export class EventosClaseES7 extends Component {
             </div>
         )
     }
+}
+
+// eslint-disable-next-line react-refresh/only-export-components
+function Boton (props) {
+    return <button onClick = {props.myOnClick} >Botón Como Componente</button>
+}
+
+export class MasSobreEventos extends Component {
+
+    handleClick = (e, mensaje) => {
+        alert(`Hola ${mensaje}`)
+    }
+
+    render(){
+        return(
+            <div>
+                <h2>7.3 EVENTOS NATIVOS, SINTÉTICOS Y PERSONALIZADOS</h2>
+                <button onClick={(e) => this.handleClick(e,"Ignacio")}>Saludar</button>
+                <Boton
+                    myOnClick= {(e) => this.handleClick(e,"Ignacio")}
+                />
+            </div>
+        )
+    }
+}
+
+Boton.propTypes = {
+    myOnClick: PropTypes.func
 }

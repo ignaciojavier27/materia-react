@@ -1,7 +1,7 @@
 import './App.css'
 import Componentes from './components/Componentes'
 import Estado from './components/Estado'
-import {EventosClaseES6, EventosClaseES7} from './components/EventosClase'
+import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
 import Propiedades from './components/Propiedades'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
@@ -35,6 +35,7 @@ function App() {
       <hr />
       <EventosClaseES6 />
       <EventosClaseES7 />
+      <MasSobreEventos />
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
