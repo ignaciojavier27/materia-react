@@ -1,9 +1,11 @@
 import './App.css'
+import CicloDeVidaClases from './components/CicloDeVidaClases'
 import Componentes from './components/Componentes'
 import ComunicacionEntreComponentes from './components/ComunicacionEntreComponentes'
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
+import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
@@ -39,6 +41,12 @@ function App() {
       <MasSobreEventos />
       <hr />
       <ComunicacionEntreComponentes />
+      <hr />
+      <CicloDeVidaClases />
+      <hr />
+      <PeticionesAsincronasComponentesDeClase />
+      <hr />
+
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
