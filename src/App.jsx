@@ -5,6 +5,8 @@ import ComunicacionEntreComponentes from './components/ComunicacionEntreComponen
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
+import UseEffect from './components/hooks/UseEffect'
+import UseState from './components/hooks/UseState'
 import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
@@ -45,6 +47,10 @@ function App() {
       <CicloDeVidaClases />
       <hr />
       <PeticionesAsincronasComponentesDeClase />
+      <hr />
+      <UseState />
+      <hr />
+      <UseEffect />
       <hr />
 
 
