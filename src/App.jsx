@@ -5,6 +5,7 @@ import ComunicacionEntreComponentes from './components/ComunicacionEntreComponen
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
+import RelojHooks from './components/hooks/RelojHooks'
 import UseEffect from './components/hooks/UseEffect'
 import UseState from './components/hooks/UseState'
 import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
@@ -51,6 +52,8 @@ function App() {
       <UseState />
       <hr />
       <UseEffect />
+      <hr />
+      <RelojHooks />
       <hr />
 
 

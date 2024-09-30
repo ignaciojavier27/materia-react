@@ -5,7 +5,7 @@ const UseEffect = () => {
     const [scrollY, setScrollY] = useState(0);
 
     useEffect( () => {
-        console.log("Moviendo Scroll");
+        // console.log("Moviendo Scroll");
 
         const detectarScroll = () => setScrollY(window.pageYOffset);
 
@@ -18,16 +18,16 @@ const UseEffect = () => {
     }, [scrollY])
 
     useEffect( () => {
-        console.log("Fase de montaje")
+        // console.log("Fase de montaje")
     },[])
 
     useEffect( () => {
-        console.log("Fase de actualización")
+        // console.log("Fase de actualización")
     })
 
     useEffect( () => {
         return () => {
-            console.log("Fase de desmontaje")
+            // console.log("Fase de desmontaje")
         }
     },[])
 
