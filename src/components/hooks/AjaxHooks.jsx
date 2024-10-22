@@ -63,7 +63,7 @@ const AjaxHooks = () => {
       ) : (
         pokemons.map((pokemon) => (
           <Pokemon
-            key={pokemon.id}
+            key={pokemon.id + pokemon.name}
             name={pokemon.name}
             avatar={pokemon.avatar}
           />

@@ -16,11 +16,13 @@ class EjemploCicloDeVida extends Component {
         // console.log(2, "El componente ya se encuentra en el DOM")
     }
 
+    /*
     componentDidUpdate(prevProps, preState) {
         // console.log(3, "El estado del componente ha cambiado")
-        console.log(prevProps)
-        console.log(preState)
+        // console.log(prevProps)
+        // console.log(preState)
     }
+    */
 
      componentWillUnmount() {
         // console.log("4. El componente se ha eliminado del DOM")

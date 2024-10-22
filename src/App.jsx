@@ -5,11 +5,12 @@ import ComunicacionEntreComponentes from './components/ComunicacionEntreComponen
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
-import AjaxHooks from './components/hooks/AjaxHooks'
+// import AjaxHooks from './components/hooks/AjaxHooks'
+import CustomHooks from './components/hooks/CustomHooks'
 import RelojHooks from './components/hooks/RelojHooks'
 import UseEffect from './components/hooks/UseEffect'
 import UseState from './components/hooks/UseState'
-import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
+// import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
@@ -48,7 +49,7 @@ function App() {
       <hr />
       <CicloDeVidaClases />
       <hr />
-      <PeticionesAsincronasComponentesDeClase />
+      {/*<PeticionesAsincronasComponentesDeClase />*/}
       <hr />
       <UseState />
       <hr />
@@ -56,8 +57,9 @@ function App() {
       <hr />
       <RelojHooks />
       <hr />
-      <AjaxHooks />
-
+      {/*<AjaxHooks />*/}
+      <hr />
+      <CustomHooks />
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
