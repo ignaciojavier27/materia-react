@@ -12,6 +12,7 @@ import UseEffect from './components/hooks/UseEffect'
 import UseState from './components/hooks/UseState'
 // import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
+import Referencias from './components/Referencias'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
 
@@ -60,6 +61,8 @@ function App() {
       {/*<AjaxHooks />*/}
       <hr />
       <CustomHooks />
+      <hr />
+      <Referencias />
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
