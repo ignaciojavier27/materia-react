@@ -5,6 +5,7 @@ import ComunicacionEntreComponentes from './components/ComunicacionEntreComponen
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
+import Formularios from './components/Formularios'
 // import AjaxHooks from './components/hooks/AjaxHooks'
 import CustomHooks from './components/hooks/CustomHooks'
 import RelojHooks from './components/hooks/RelojHooks'
@@ -63,6 +64,8 @@ function App() {
       <CustomHooks />
       <hr />
       <Referencias />
+      <hr />
+      <Formularios />
 
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
 
