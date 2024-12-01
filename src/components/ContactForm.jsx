@@ -45,8 +45,6 @@ const ContactForm = () => {
     const {
         form,
         errors,
-        loading,
-        response,
         handleChange,
         handleBlur,
         handleSubmit

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { helpHttp } from "../helpers/helpHttp";
+
 const useForm = (initialForm, validateForm) => {
     const [form, setForm] = useState(initialForm);
     const [errors, setErrors] = useState({});
@@ -21,6 +23,25 @@ const useForm = (initialForm, validateForm) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setErrors(validateForm(form));
+        if(Object.keys(errors).length === 0) {
+            alert("Enviando formulario");
+            setLoading(true);
+            helpHttp()
+                .post("https://formsubmit.co/ajax/nacholin124@gmail.com", {
+                    body: form,
+                    headers:{
+                        "Content-Type": "application/json",
+                        "Accept": "application/json"
+                    }
+                })
+                .then(() => {
+                    setLoading(false);
+                    setResponse(true);
+                })
+        }else{
+            alert("Hay errores en el formulario");
+        }
     }
 
     return {
