@@ -1,5 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -23,6 +22,7 @@ a:hover {
 }
 
 body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -50,6 +50,47 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 80%;
+    margin-bottom: 10px;
+    padding:10px 5px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    color:black;
+}
+
+button,
+input[type="submit"]{
+    background-color: antiquewhite;
+    border:2px solid black;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding:10px 20px;
+    color:black;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+textarea{
+    font-family: inherit;
+    resize: none;
+}
+
+form p{
+    color: red;
+    padding:0;
+    margin-top: 0;
+    margin-bottom:10px;
+    font-weight: bolder;
 }
 
 @media (prefers-color-scheme: light) {

@@ -2,6 +2,7 @@ import './App.css'
 import CicloDeVidaClases from './components/CicloDeVidaClases'
 import Componentes from './components/Componentes'
 import ComunicacionEntreComponentes from './components/ComunicacionEntreComponentes'
+import ContactForm from './components/ContactForm'
 import Estado from './components/Estado'
 import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase'
 import FormatoJSX from './components/FormatoJSX'
@@ -23,9 +24,37 @@ function App() {
     <>
       <h1>Contenido Curso React</h1>
       <hr />
-      <FormatoJSX />
+      <ContactForm />
       <hr />
-      <Componentes />
+      <Formularios />
+      <hr />
+      <Referencias />
+      <hr />
+      <CustomHooks />
+      <hr />
+      {/*<AjaxHooks />*/}
+      <hr />
+      <RelojHooks />
+      <hr />
+      <UseEffect />
+      <hr />
+      <UseState />
+      <hr />
+      {/*<PeticionesAsincronasComponentesDeClase />*/}
+      <hr />
+      <CicloDeVidaClases />
+      <hr />
+      <ComunicacionEntreComponentes />
+      <hr />
+      <MasSobreEventos />
+      <EventosClaseES7 />
+      <EventosClaseES6 />
+      <hr />
+      <RenderizadoElementos />
+      <hr />
+      <RenderizadoCondicional />
+      <hr />
+      <Estado />
       <hr />
       <Propiedades 
         cadena = "Hola mundo"
@@ -37,37 +66,9 @@ function App() {
         reactElement = {<h4>Hola mundo</h4>}
       />
       <hr />
-      <Estado />
+      <Componentes />
       <hr />
-      <RenderizadoCondicional />
-      <hr />
-      <RenderizadoElementos />
-      <hr />
-      <EventosClaseES6 />
-      <EventosClaseES7 />
-      <MasSobreEventos />
-      <hr />
-      <ComunicacionEntreComponentes />
-      <hr />
-      <CicloDeVidaClases />
-      <hr />
-      {/*<PeticionesAsincronasComponentesDeClase />*/}
-      <hr />
-      <UseState />
-      <hr />
-      <UseEffect />
-      <hr />
-      <RelojHooks />
-      <hr />
-      {/*<AjaxHooks />*/}
-      <hr />
-      <CustomHooks />
-      <hr />
-      <Referencias />
-      <hr />
-      <Formularios />
-
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+      <FormatoJSX />
 
     </>
   )
