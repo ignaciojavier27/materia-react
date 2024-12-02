@@ -1,9 +1,12 @@
 import { useModal } from "../custom_hooks/useModal"
 import Modal from "./Modal"
+import ModalPortal from "./ModalPortal";
 
 const Modals = () => {
 
     const [isOpenModal1, openModal1, closeModal1] = useModal(false);
+    const [isOpenModalPortal, openModalPortal, closeModalPortal] = useModal(false);
+
 
     return (
         <div>
@@ -16,6 +19,14 @@ const Modals = () => {
                 <h3>Modal 1</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem quos aut laudantium sequi, praesentium voluptates quaerat soluta et minima consectetur eius molestiae eligendi temporibus illum similique autem sint! Odio, impedit!</p>
             </Modal>
+            <button onClick={openModalPortal}>Modal Portal</button>
+            <ModalPortal 
+                isOpen={isOpenModalPortal}
+                closeModal={closeModalPortal}
+            >
+                <h3>Modal en Portal</h3>
+                <p>Este es un modal que se renderiza en el portal de React</p>
+            </ModalPortal>
         </div>
     )
 }
