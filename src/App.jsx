@@ -12,6 +12,7 @@ import CustomHooks from './components/hooks/CustomHooks'
 import RelojHooks from './components/hooks/RelojHooks'
 import UseEffect from './components/hooks/UseEffect'
 import UseState from './components/hooks/UseState'
+import Modals from './components/Modals'
 // import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
 import Referencias from './components/Referencias'
@@ -23,6 +24,8 @@ function App() {
   return (
     <>
       <h1>Contenido Curso React</h1>
+      <hr />
+      <Modals />
       <hr />
       <ContactForm />
       <hr />
