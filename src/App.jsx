@@ -15,6 +15,7 @@ import UseState from './components/hooks/UseState'
 import Modals from './components/Modals'
 // import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
+import ReactRouter from './components/ReactRouter/ReactRouter'
 import Referencias from './components/Referencias'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
@@ -24,6 +25,8 @@ function App() {
   return (
     <>
       <h1>Contenido Curso React</h1>
+      <hr />
+      <ReactRouter />
       <hr />
       <Modals />
       <hr />
