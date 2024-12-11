@@ -5,9 +5,9 @@ const NavRouter = () => {
   return (
     <>
       <nav>
-        <Link to={"/"}>Home</Link>
+        <Link to="/">Home</Link>
         <br />
-        <Link to={"/acerca"}>Acerca</Link>
+        <Link to="/acerca">Acerca</Link>
       </nav>
       <br />
       <nav>
@@ -23,6 +23,13 @@ const NavRouter = () => {
           to={"/acerca"}
         >
           Acerca
+        </NavLink>
+        <br />
+        <NavLink
+          className={({ isActive }) => (isActive ? "active-link" : null)}
+          to={"/productos"}
+        >
+          Productos
         </NavLink>
       </nav>
     </>
