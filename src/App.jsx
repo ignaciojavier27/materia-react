@@ -12,6 +12,7 @@ import CustomHooks from './components/hooks/CustomHooks'
 import RelojHooks from './components/hooks/RelojHooks'
 import UseEffect from './components/hooks/UseEffect'
 import UseState from './components/hooks/UseState'
+import Memorizacion from './components/Memorizacion/Memorizacion'
 import Modals from './components/Modals'
 // import PeticionesAsincronasComponentesDeClase from './components/PeticionesAsincronasComponentesDeClase'
 import Propiedades from './components/Propiedades'
@@ -25,6 +26,8 @@ function App() {
   return (
     <>
       <h1>Contenido Curso React</h1>
+      <hr />
+      <Memorizacion /> 
       <hr />
       <ReactRouter />
       <hr />

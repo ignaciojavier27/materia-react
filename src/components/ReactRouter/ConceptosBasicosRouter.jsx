@@ -16,6 +16,7 @@ const initialProducts = [
 
 const ConceptosBasicosRouter = () => {
 
+    // eslint-disable-next-line no-unused-vars
     const [productos, setProductos] = useState(initialProducts);
 
     return (
