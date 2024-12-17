@@ -8,7 +8,7 @@ const MemoContador = () => {
 
     // const sumar = () => setContador( contador + 1 );
 
-    const sumar = useCallback ( () => setContador( contador + 1 ) , [contador] );
+    const sumar = useCallback (() => setContador( contador + 1 ) , [contador] );
     const restar = useCallback ( () => setContador( contador - 1 ) , [contador] ) 
 
     return (
